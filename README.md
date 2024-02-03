@@ -14,4 +14,4 @@
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)
+- How to reach me : with my [instagram](https://www.instagram.com/alireza_behweb/) and [linkedin](https://www.linkedin.com/in/alireza-behbahanian-90b980160/)
