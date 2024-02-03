@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+main > figure > img {
+  position: absolute;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -500;
+}
+main > .row {
+  height: 250px;
+  margin-top: 228px;
+}
+main > .row > h1 {
+  font-family: "Audiowide", sans-serif;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  padding-top: 70px;
+  text-align: center;
+  width: 100%;
+  height: 65%;
+}
+main > .row > h2 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 0;
+  width: 100%;
+  height: 25%;
+}
+main > .row > h3 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10px;
+  text-transform: capitalize;
+  color: rgb(249, 246, 246);
+  text-align: center;
+  width: 100%;
+  height: 10%;
+}
+main > .button {
+  width: 100%;
+}
+main > .button > .row {
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+main > .button > .row > div {
+  height: 100%;
+  position: relative;
+  width: 200px;
+  border-radius: 7px;
+  transition: 0.4s;
+}
+main > .button > .row > div:first-of-type {
+  background-color: rgb(151, 120, 209);
+  margin-right: 35px;
+  padding-top: 5px;
+}
+main > .button > .row > div:first-of-type:hover {
+  background-color: rgba(144, 238, 144, 0);
+  height: 115%;
+  width: 210px;
+  border: 3px solid white;
+  margin-right: 10px;
+}
+main > .button > .row > div:first-of-type:hover > a {
+  color: rgb(252, 252, 252);
+}
+main > .button > .row > div:last-of-type {
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 35px;
+  border: 3px solid white;
+  padding-top: 5px;
+}
+main > .button > .row > div:last-of-type:hover {
+  background-color: rgba(255, 255, 255, 0.81);
+  height: 115%;
+  width: 210px;
+  margin-left: 10px;
+}
+main > .button > .row > div:last-of-type:hover > a {
+  color: black;
+}
+main > .button > .row > div > a {
+  color: rgb(251, 250, 250);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}/*# sourceMappingURL=master3.css.map */
